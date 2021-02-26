@@ -1,5 +1,4 @@
 <!--
-(main social network page).
 The homepage must look professional and include all different components of the social network that you have in mind, 
 and include links to other pages you’ll add in the future.
 - Who to follow, trending hashtags, link to messages, link to profile
@@ -14,11 +13,37 @@ You can choose to make your social network look similar to Facebook or Twitter W
 <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <!--Side Navigation-->
+    <nav class='navbar navbar-toggleable-sm bg-info'>
+        <div class='container'>
+            <button class='navbar-toggler' data-toggle='collapse' data-target='#mainNav'>
+                <span class='navbar-toggler-icon'></span>
+            </button>
+            <div class='collapse navbar-collapse' id='mainNav'>
+                <div class='navbar-nav'>
+                    <a class ='nav-item nav-link active' href = '#'>Home</a>
+                    <a class ='nav-item nav-link' href = '#'>Notifications</a>
+                    <a class ='nav-item nav-link' href = '#'>Messaging</a>
+                    <a class ='nav-item nav-link' href = '#'>Settings</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    
+    <!-- Main Page Content-->
+    <div class="main">
+        ...
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
