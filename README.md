@@ -16,7 +16,7 @@ Our team used HTML with Bootstrap and a little bit of CSS
 The sign up page contains one main div element and one form elemement.
 
 The first div element contains the image that we are using for our social media page and
-a header that simply says 'Create SocNet Account'
+a header that simply says 'Create SocNet Account'.
 
 The form contains 8 div elements. First name, last name, @ username, gender, location,
 email, and a password/confirm password field. Most fields use inputs as the way of
@@ -26,7 +26,22 @@ gender and location field.
 
 There is also a sign up button to submit information and the cancel button which clears the form.
 
+Last, we have a footer that conatins Copyright @ 2021 SocNet.
+
 # Sign In Description
+
+The sign in page is made of various div elements and one form element.
+
+The first div element contains the image that we are using for our social media page and
+a header that simply says 'Sign in to SocNet'.
+
+The form contains two input elements which ask the user for their accounts email and password; both fields are required.
+
+Under these two input fields we have a checkbox to allow the user to remember the account and not have to login again followed by two buttons; cancel and sign in. Sign in submits the information while the cancel clears it.
+
+Right outside the form we have references to the forgot password page and sign up page.
+
+Last, we have a footer that conatins Copyright @ 2021 SocNet.
 
 # Homepage Description
 
