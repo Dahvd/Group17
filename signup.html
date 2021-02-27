@@ -29,8 +29,8 @@ Reset button
 <body>
     <div class="text-center mb-3 mt-5">
         <h1>
-            <img src="/images/SocNet.PNG" alt="" width="60" height="60">
-            <Span>Log in to SocNet</Span>
+            <img src="images/SocNet.PNG" alt="" width="60" height="60">
+            <Span>Create SocNet Account</Span>
         </h1>
     </div>
 
@@ -38,39 +38,48 @@ Reset button
         <div class="d-flex align-items-center justify-content-center">
             <div class="form-group row col-xxl-3 col-xl-4 col-lg-5 col-md-5 col-sm-7 col-7">
                 <div class="mb-3">
+                    <input type="text" id="firstNameTxt" name="firstNameTxt" required class="form-control"
+                        placeholder="First Name">
+                </div>
+                <div class="mb-3">
+                    <input type="text" id="lastNameTxt" name="lastNameTxt" required class="form-control"
+                        placeholder="Last Name">
+                </div>
+                <div class="mb-3">
+                    <input type="text" id="usernameTxt" name="usernameTxt" required class="form-control"
+                        placeholder="@ Username">
+                </div>
+                <div class="mb-3">
+                    <select name="ddGender" id="ddGender" class="form-control">
+                        <option value="" selected disabled>Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <input type="text" id="locationTxt" name="locationTxt" class="form-control" placeholder="Location">
+                </div>
+                <div class="mb-3">
                     <input type="email" id="emailInput" name="emailInput" required class="form-control"
                         placeholder="Email">
                 </div>
-                <div>
+                <div class="mb-3">
                     <input type="password" id="passwordInput" name="passwordInput" required class="form-control"
                         placeholder="Password">
                 </div>
-
-                <div class="d-flex align-items-center justify-content-center mt-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="rememberMeCheckbox">
-                        <label class="form-check-label" for="rememberMeCheckbox">Remember me?</label>
-                    </div>
+                <div>
+                    <input type="password" id="confirmPasswordInput" name="confirmPasswordInput" required
+                        class="form-control" placeholder="Confirm Password">
                 </div>
 
-                <p class="text-center">
+                <div class="mb-3 mt-2 text-center">
                     <button type="reset" class="btn btn-secondary mt-2">Cancel</button>
-                    <button type="submit" class="btn btn-primary mt-2">Login</button>
-                </p>
+                    <button type="submit" class="btn btn-primary mt-2">Sign up</button>
+                </div>
             </div>
         </div>
     </form>
-
-    <div class="d-flex justify-content-center row m-0">
-        <div
-            class="d-flex justify-content-lg-end justify-content-md-end justify-content-center col-lg-5 col-md-3 col-sm-10">
-            <a href="forgotPassword.html">Forgot Password?</a>
-        </div>
-        <div
-            class="d-flex justify-content-lg-start justify-content-md-start justify-content-center col-lg-5 col-md-3 col-sm-10">
-            <a href="signup.htlm">Sign up for SocNet</a>
-        </div>
-    </div>
 
     <div class="d-flex justify-content-center fixed-bottom">
         <footer class="text-muted">Copyright @ 2021 SocNet</footer>
