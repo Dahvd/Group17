@@ -29,7 +29,7 @@ Reset button
 <body>
     <div class="text-center mb-3 mt-5">
         <h1>
-            <img src="/images/SocNet.PNG" alt="" width="60" height="60">
+            <img src="images/SocNet.PNG" alt="" width="60" height="60">
             <Span>Create SocNet Account</Span>
         </h1>
     </div>
@@ -49,16 +49,13 @@ Reset button
                     <input type="text" id="usernameTxt" name="usernameTxt" required class="form-control"
                         placeholder="@ Username">
                 </div>
-                <div class="row mb-3">
-                    <label for="ddGender" class="mr-5 col-form-label col-1">Gender</label>
-                    <div class=" row col-lg-5 col-md-5 col-sm-7 col-7">
-                        <select name="ddGender" id="ddGender" class="form-control">
-                            <option value="">-</option>
-                            <option value="Male">Male</option>
-                            <option value="Female">Female</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
+                <div class="mb-3">
+                    <select name="ddGender" id="ddGender" class="form-control">
+                        <option value="" selected disabled>Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
                 </div>
                 <div class="mb-3">
                     <input type="text" id="locationTxt" name="locationTxt" class="form-control" placeholder="Location">
